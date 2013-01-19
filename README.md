@@ -10,6 +10,14 @@ starting out in the world of SDR may find these useful.
 2. GNU Radio 3.6.3 with GNU Radio Companion (http://gnuradio.org/redmine/projects/gnuradio/wiki)
   * Older versions may work also, but I'm using 3.6.3
 
+## GRC Files
+
+* **nbfm_file**: Narrowband FM receiver from a file (see voice_spec.grc)
+* **nbfm_rx**: Narrowband FM receiver using the RTL-SDR
+* **spec_fft**: Simple FFT dump; adjustable range covers typical RTL-SDR frequency range
+* **voice_spec**: Narrowband FM "transmitter"; just dumps to a file (for use in nbfm_file.grc)
+* **wbfm_rx**: Wideband (broadcast) FM receiver; good for listening to local FM stations
+
 ## Copyright
 
 Copyright 2013 Alex Gladd (unless otherwise noted)
